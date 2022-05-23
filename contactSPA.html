@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class = "logo">
+            <a href="index.html"><img src = "images/logo.png" alt = "Garduno Remodeling Logo"></a>
+        </div>
+        <a href="index.html"><p id = "navname">Garduno Remodeling</p></a>
+        <div class = "navlinks">
+            <a class="nav-lname" href = "indexSPA.html">Inicio</a>
+            <a class="nav-lname" href = "aboutSPA.html">Acerca</a>
+            <a class="nav-lname" href = "servicesSPA.html">Servicios</a>
+            <a class="nav-lname" href = "contactSPA.html">Contacto</a>
+            <a class="nav-lname" href = "portfolioSPA.html">Portafolio</a>
+        </div>
+    </nav>
+    <div class = "transbutton">
+        <a class = "translate" href ="contact.html">English</a>
+    </div>
+    <div class="contactcontainer">
+        <div class="contactmain">
+            <h2>A Su Servicio</h2><br><br>
+            <div class="stuff">
+                <h3>Paintar - Tiling - Jardines - Electrical - Remodelar</h3>
+            </div><br><br><br>
+                <a class="button1" href="services.html">Aprende Mas</a>
+            </div>
+        </div>
+        <br><br>
+        <form method="POST" enctype="multipart/form-data" name="EmailForm">
+            <h4>Contacta Nos</h4>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Name" required=""><br><br>
+            <label for="number">Numero de telefono:</label>
+            <input type="text" id="number" name="number" placeholder="Ex. 623-xxx-xxxx" required=""><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Ex. john123@gmail.com" required=""><br><br>
+            <label for="serv">Servicio:</label>
+            <select name="services" id="services" placeholder="ex. remodeling" required="">
+                <option value="remodeling">Remodelacion</option>
+                <option value="tile">Tile</option>
+                <option value="paint">Paintar</option>
+                <option value="landscaping">Jardines</option>
+                <option value="electrical">Electrical</option>
+            </select><br><br>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="10" placeholder="Special Requests"></textarea><br><br>
+            <button type="submit" onclick="clearForm(); alert('La Forma Se Mando');">Submit</button>
+        
+        </form>
+        <div class="contactinfo">
+            <img src="images/card.png" alt="Garduno Business Card, Owner: Jose Ricardo Garduno, Email: Gardunojr@hotmail.com, Phone: 623-523-1409, Address: 25777 Miami St. Buckeye Arizona 85326">
+        </div><br><br>
+        <div class="contactlocation">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.234047223768!2d-112.6075039846573!3d33.41714198078363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b3545267995d7%3A0xe9d5143d83351e17!2s25777%20W%20Miami%20St%2C%20Buckeye%2C%20AZ%2085326!5e0!3m2!1sen!2sus!4v1643058168068!5m2!1sen!2sus" width="450" height="461" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+
+        <div class="contactbody">
+           <p>Padding</p>
+        </div>
+
+    
+<script type="text/javascript">
+    const form = document.getElementById('form')
+    const errorElement = document.getElementById('error')
+    form.addEventListener('submit', (e) => {
+        let messages = []
+        if (name.value ==='' || name.value == null){
+            messages.push
+        }
+    })
+    function clearForm(){
+        var nameId = document.getElementById("name");
+        nameId.value = "";
+        var emailId = document.getElementById("email");
+        emailId.value = "";
+        var numberId = document.getElementById("number");
+        number.value = "";
+        var servicesId = document.getElementById("services");
+        servicesId.value = "";
+        var messageId = document.getElementById("message");
+        messageId.value = "";
+    }   
+</script>
+</body>
+<footer>
+    <div class = "footercontent">
+        <div class = "footerhead">
+            <img class = "footlogo" src = "images/logo.png">
+            <h3>Servicio de Remodelación Garduno</h3>
+        </div>
+        <div class = "footerlinks">
+            <a href = "indexSPA.html">Inicio</a>
+            <a href = "aboutSPA.html">Acerca de</a>
+            <a href = "servicesSPA.html">Servicios</a>
+            <a href = "contactSPA.html">Contacto</a>
+            <a href = "portfolioSPA.html">Portafolio</a>
+        </div>
+        <div class = "footerinfo">
+            <p>Correo electrónico: gardunoremodeling@gmail.com</p>
+            <p>Teléfono: 123-456-7890</p>
+            <p>Dirección: 25777 W Miami St, Buckeye AZ 85326</p>
+        </div>
+        <div class = "footermap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.234047223768!2d-112.6075039846573!3d33.41714198078363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b3545267995d7%3A0xe9d5143d83351e17!2s25777%20W%20Miami%20St%2C%20Buckeye%2C%20AZ%2085326!5e0!3m2!1sen!2sus!4v1643058168068!5m2!1sen!2sus" width="450" height="461" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <hr id = "footline">
+    <div class = "footersocials">
+        <a href = "">
+            <img src = "images/face.png">
+        </a>
+        <a href = "">
+            <img src = "images/insta.png">
+        </a>
+        <a href = "">
+            <img src = "images/pin.png">
+        </a>
+        <a href = "">
+            <img src = "images/tube.png">
+        </a>
+        <a href = "">
+            <img src = "images/twt.png">
+        </a>
+    </div>
+    <p id = "copyright">&copy;Derechos de autor. Todos los derechos reservados.</p>
+</footer>
+</body>
+<script type="text/javascript">
+    function clearForm(){
+        var nameId = document.getElementById("name");
+        nameId.value = "";
+        var emailId = document.getElementById("email");
+        emailId.value = "";
+        var numberId = document.getElementById("number");
+        number.value = "";
+        var servicesId = document.getElementById("services");
+        servicesId.value = "";
+        var messageId = document.getElementById("message");
+        messageId.value = "";
+    }   
+
+   
+</script></html>

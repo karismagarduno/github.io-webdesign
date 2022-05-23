@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Garduno Remodeling</title>
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+</head>
+<nav>
+    <div class = "logo">
+        <a href="indexSPA.html"><img src = "images/logo.png" alt = "Garduno Remodeling Logo"></a>
+    </div>
+    <a href="indexSPA.html"><p id = "navname">Servicio de Remodelación Garduno</p></a>
+    <div class = "navlinks">
+        <a class="nav-lname" href = "indexSPA.html">Inicio</a>
+        <a class="nav-lname" href = "aboutSPA.html">Acerca</a>
+        <a class="nav-lname" href = "servicesSPA.html">Servicios</a>
+        <a class="nav-lname" href = "contactSPA.html">Contacto</a>
+        <a class="nav-lname" href = "portfolioSPA.html">Portafolio</a>
+    </div>
+</nav>
+<body>
+    <div class = "container">
+        <div class = "transbutton">
+            <a class = "translate" href = "index.html">English</a>
+        </div>
+    </div>
+
+
+   <div class="main-outline"> 
+    <div class = "main">
+        <div class = "info">
+            <div class = "unskew">
+                <h1 id = "title">Servicio de Remodelación Garduno</h1>
+                    <h3 class = "subtitle">Restaurador</h3>
+                    <h3 class = "subtitle">Personal de mantenimiento</h3>
+                    <p id = "shortsum">Manitas con sede en Phoenix, Arizona, siempre a su servicio</p>
+                    <a class = "button" href = "servicesSPA.html">Aprende más</a>
+            </div>
+        </div>
+    
+        <div class = "img">
+            <div id="stage">
+                <a><img src="images/house.jpg"></a>
+                <a><img class="sec-img" src="images/reviews.jpg"></a>
+                <a><img class="third-img" src="images/aboutme.jpg"></a>
+            </div>
+        </div>
+    </div>
+   </div>
+   
+    <div class = "bottom">
+        <h5 class="page-title">Explorar</h5>
+        <div class = "links">
+        <a href = "servicesSPA.html">
+            <div class = "homeitemtitle" class="services">
+                Servicios
+            </div>
+        </a>
+        <a href = "aboutSPA.html">
+            <div class = "homeitemtitle" class="about">
+                Acerca de
+            </div>
+        </a>
+        <a href = "contactSPA.html">
+            <div class = "homeitemtitle" class="contact">
+                Contacto
+            </div>
+        </a>
+        <a href = "portfolioSPA.html">
+            <div class = "homeitemtitle" class="portfolio">
+                Portafolio
+            </div>
+        </a>
+        </div>
+    </div>
+
+    <footer>
+        <div class = "footercontent">
+            <div class = "footerhead">
+                <img class = "footlogo" src = "images/logo.png">
+                <h3>Servicio de Remodelación Garduno</h3>
+            </div>
+            <div class = "footerlinks">
+                <a href = "indexSPA.html">Inicio</a>
+                <a href = "aboutSPA.html">Acerca de</a>
+                <a href = "servicesSPA.html">Servicios</a>
+                <a href = "contactSPA.html">Contacto</a>
+                <a href = "portfolioSPA.html">Portafolio</a>
+            </div>
+            <div class = "footerinfo">
+                <p>Correo electrónico: gardunoremodeling@gmail.com</p>
+                <p>Teléfono: 123-456-7890</p>
+                <p>Dirección: 25777 W Miami St, Buckeye AZ 85326</p>
+            </div>
+            <div class = "footermap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.234047223768!2d-112.6075039846573!3d33.41714198078363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b3545267995d7%3A0xe9d5143d83351e17!2s25777%20W%20Miami%20St%2C%20Buckeye%2C%20AZ%2085326!5e0!3m2!1sen!2sus!4v1643058168068!5m2!1sen!2sus" width="450" height="461" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <hr id = "footline">
+        <div class = "footersocials">
+            <a href = "">
+                <img src = "images/face.png">
+            </a>
+            <a href = "">
+                <img src = "images/insta.png">
+            </a>
+            <a href = "">
+                <img src = "images/pin.png">
+            </a>
+            <a href = "">
+                <img src = "images/tube.png">
+            </a>
+            <a href = "">
+                <img src = "images/twt.png">
+            </a>
+        </div>
+        <p id = "copyright">&copy;Derechos de autor. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+<script>
+    window.addEventListener("DOMContentLoaded", function(e) {
+
+// Original JavaScript code by Chirp Internet: chirpinternet.eu
+// Please acknowledge use of this code by including this header.
+
+var stage = document.getElementById("stage");
+var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+var arr = stage.getElementsByTagName("a");
+for(var i=0; i < arr.length; i++) {
+  arr[i].addEventListener("animationend", fadeComplete, false);
+}
+
+}, false);
+</script>
+</html>
